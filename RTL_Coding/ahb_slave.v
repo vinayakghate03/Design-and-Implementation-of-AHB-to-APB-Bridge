@@ -12,7 +12,7 @@ module ahb_slave (
     output reg            [31:0] HRDATA,
     output wire                  HREADYOUT,
 
-    // ----------AHB_SLAVE - BRIDGE------------------- 
+    // ----------AHB_SLAVE - BRIDGE Singles ------------------- 
     input  wire                    Bridge_Ready,
     input  wire             [31:0] Bridge_Rd_Data,
     input  wire                    Bridge_Rd_Valid,
